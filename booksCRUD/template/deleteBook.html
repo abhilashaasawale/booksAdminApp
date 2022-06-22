@@ -1,0 +1,14 @@
+<html>
+<div class="container mt-4">
+    <br>
+    <h1 class="text-center"><u>Delete an entry for a book</u></h1><br>
+    <form method="POST"> {% csrf_token %}
+    <div class="row mt-4">
+        <div class="form-group col-md-12">
+            <label><i style="font-weight: bold;">Book Name</i></label>
+            <input type="text" class="form-control mt-2" name="bookName" placeholder="Enter Book Name" required>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-outline-primary mt-4">Delete</button>
+</form>
+</html>

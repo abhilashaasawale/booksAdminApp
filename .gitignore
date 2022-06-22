@@ -1,0 +1,2 @@
+*.pyc
+booksCRUD/migrations/*.py

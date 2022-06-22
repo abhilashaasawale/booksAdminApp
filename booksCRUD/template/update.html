@@ -1,0 +1,17 @@
+<html>
+    <h1 class="text-center"><u>Update an entry for a book</u></h1><br>
+<div class="container">
+    <form method="POST"> {% csrf_token %}
+<div class="row mt-4">
+    <div class="form-group col-md-6">
+        <label><i style="font-weight: bold;">Book Name</i></label>
+        <input type="book_name" class="form-control mt-2" name="book_name">
+    </div>
+    <div class="form-group col-md-6">
+        <label><i style="font-weight: bold;">Author</i></label>
+        <input type="author" class="form-control mt-2" name="author">
+    </div>
+</div>
+<button type="submit" class="btn btn-outline-primary mt-5">Update</button>
+</form>
+</html>
